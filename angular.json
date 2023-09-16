@@ -7,25 +7,25 @@
       "projectType": "application",
       "schematics": {},
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "JulianaLopes.github.io",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/juliana-lopes",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "index": "JulianaLopes.github.io/index.html",
+            "main": "JulianaLopes.github.io/main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "JulianaLopes.github.io/favicon.ico",
+              "JulianaLopes.github.io/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "JulianaLopes.github.io/styles.css"
             ],
             "scripts": []
           },
@@ -83,11 +83,11 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "JulianaLopes.github.io/favicon.ico",
+              "JulianaLopes.github.io/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "JulianaLopes.github.io/styles.css"
             ],
             "scripts": []
           }

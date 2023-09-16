@@ -6,9 +6,9 @@
     "types": []
   },
   "files": [
-    "src/main.ts"
+    "JulianaLopes.github.io/main.ts"
   ],
   "include": [
-    "src/**/*.d.ts"
+    "JulianaLopes.github.io/**/*.d.ts"
   ]
 }
