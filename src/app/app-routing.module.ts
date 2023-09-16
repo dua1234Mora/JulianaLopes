@@ -4,6 +4,10 @@ import {HeroComponent} from 'src/app/center/hero/hero.component';
 import {CenterComponent} from 'src/app/center/center.component';
 import{ContactComponent} from 'src/app/center/contact/contact.component'
 import {PilatesComponent} from 'src/app/center/pilates/pilates.component';
+import {PublicComponent} from 'src/app/center/public/public.component';
+import {BlogComponent} from 'src/app/center/blog/blog.component';
+import {StudioComponent} from 'src/app/center/studio/studio.component';
+
 
 const routes: Routes = [  {
   path: '',redirectTo: '/Hero', pathMatch: 'full'
@@ -19,6 +23,16 @@ const routes: Routes = [  {
 },
 {
   path: 'contact',component:ContactComponent
+}
+,
+{
+  path: 'public',component:PublicComponent
+},
+{
+  path: 'blog',component:BlogComponent
+},
+{
+  path: 'studio',component:StudioComponent
 }
 ];
 /*
