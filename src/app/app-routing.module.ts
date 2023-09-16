@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {HeroComponent} from 'JulianaLopes.github.io/app/center/hero/hero.component';
-import {CenterComponent} from 'JulianaLopes.github.io/app/center/center.component';
-import{ContactComponent} from 'JulianaLopes.github.io/app/center/contact/contact.component'
-import {PilatesComponent} from 'JulianaLopes.github.io/app/center/pilates/pilates.component';
+import {HeroComponent} from 'src/app/center/hero/hero.component';
+import {CenterComponent} from 'src/app/center/center.component';
+import{ContactComponent} from 'src/app/center/contact/contact.component'
+import {PilatesComponent} from 'src/app/center/pilates/pilates.component';
 
 const routes: Routes = [  {
   path: '',redirectTo: '/Hero', pathMatch: 'full'

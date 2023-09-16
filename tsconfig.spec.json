@@ -8,7 +8,7 @@
     ]
   },
   "include": [
-    "JulianaLopes.github.io/**/*.spec.ts",
-    "JulianaLopes.github.io/**/*.d.ts"
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
   ]
 }
